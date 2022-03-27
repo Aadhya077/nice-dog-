@@ -1,0 +1,85 @@
+html,body,h1,h2,h3,h4,h5,h6{font-family: "Garamond", sans-serif}
+body{background-color:#EDE2F7; padding : 20px;
+}
+
+.mrg{background-color:#EDE2F7; margin-top: 25px;
+  margin-bottom: 75px;
+  margin-right: 50px;
+  margin-left: 50px;}
+  
+  nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+ padding: 20px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+article {
+  float: right;
+  padding: 20px;
+  width: 50%;
+  
+  
+}
+.SKILLS{background-color:#CBE7E2;padding: 3px; }
+.wep{background-color:#CBE7E2;padding:20px; }
+table { 
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.edu{background-color:#CBE7E2;padding:20px}
+.pfp{
+                display : flex;
+                align-items :center;
+                justify-content: center;
+				width: 50%;
+				height:50%;
+                
+            }
+			
+			h1 {
+  text-align: center; background-color:#CBE7E2 ;
+}
+.navbar ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#333;
+}
+.navbar li{
+float:left;
+} 
+.navbar li a{
+display:inline-block;
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+}
+.navbar li a:hover{
+background-color:#111;
+}
+.active{
+background-color:darkgrey;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #CBE7E2;
+}
